@@ -1,0 +1,67 @@
+# Environment variables - NEVER commit
+.env
+.env.local
+.env.*.local
+.env.production
+.env.production.local
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+build/
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# SvelteKit
+.svelte-kit/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE & Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+
+# Local files
+*.local
+*.tmp
+*.bak
+.cache/
+
+# IDE specific
+.eslintcache
+.stylelintcache
+
+# Testing
+.nyc_output/
+coverage/
+
+# Vite
+.vite/
+
+# Runtime
+.git/
+.gitkeep
